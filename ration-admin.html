@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ration Distribution</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ration Distribution System</h1>
+  <p>Assign and manage rations for families dynamically.</p>
+
+  <div id="controls">
+    <button onclick="assignRations()">Distribute Rations</button>
+    <button onclick="resetRations()">Reset</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Family Name</th>
+        <th>Ration (kg)</th>
+      </tr>
+    </thead>
+    <tbody id="familyTable"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
